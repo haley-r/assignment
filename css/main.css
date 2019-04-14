@@ -177,7 +177,9 @@ a{
 
 .thumbnail-gallery figure{
     margin: 0;
-    width: 50%;
+    width: 49%;
+    float: left;
+    padding-right: 1%;
 }
 
 figure img{
