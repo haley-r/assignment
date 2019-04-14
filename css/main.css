@@ -7,6 +7,9 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
+
+ @import url('https://fonts.googleapis.com/css?family=Muli');
+
  
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -100,7 +103,7 @@ textarea {
    ========================================================================== */
 
 body{
-    font-family: sans-serif;
+    font-family: 'Muli', sans-serif;
 }
 
 
