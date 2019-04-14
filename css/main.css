@@ -106,6 +106,16 @@ body{
     font-family: 'Muli', sans-serif;
 }
 
+header{
+    background: #000000;
+    color: #ffffff;
+
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    padding: 1em;    
+}
+
 
 
 
