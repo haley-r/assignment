@@ -152,11 +152,17 @@ a{
 }
 
 .splash .button{
-    border: 1px solid #ffffff;
+    font-weight: bold;
+    border: 3px solid #ffffff;
     padding: .5em;
     font-size: 2em;
+    letter-spacing: .1em;
     margin: 1em;
+}
 
+.splash .button:hover{
+    background: #ffffff;
+    color: #4b0757;
 }
 
 
