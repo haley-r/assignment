@@ -116,6 +116,10 @@ header{
     color: #ffffff;
 }
 
+footer{
+    text-align: center;
+}
+
 #all-content{
     margin-top: 2em;
 }
