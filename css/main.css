@@ -104,17 +104,31 @@ textarea {
 
 body{
     font-family: 'Muli', sans-serif;
+    font-size: small;
 }
 
 header{
     background: #000000;
-    color: #ffffff;
-
     position: fixed;
     top: 0px;
     width: 100%;
-    padding: 1em;    
+    padding-left: 1em;
+     
 }
+
+h1{
+    color: #ffffff;
+    font-weight:bold;
+    font-size: 1.5em;
+    float: left;
+}
+
+#dropdown-menu{
+    float: right;
+}
+
+
+
 
 
 
