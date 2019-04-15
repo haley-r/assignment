@@ -202,7 +202,10 @@ figcaption{
     background: rgba(255,255,255,.8);
 }
 
-
+figcaption:hover, figcaption:active{
+    background: none;
+    color:#ffffff;
+}
 
 
 #be-random{
