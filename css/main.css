@@ -107,6 +107,7 @@ textarea {
 body{
     font-family: 'Muli', sans-serif;
     font-size: small;
+    padding-top: 3em;
 }
 
 h1, h2, h3, h4, h5{
@@ -119,30 +120,30 @@ img{
     max-width: 100%;
 }
 
-header{
+.page-header{
     background: #000000;
+    color: #ffffff;
+    padding: 1em;
+
     position: fixed;
     top: 0px;
     width: 100%;
-    padding-left: 1em;
-    color: #ffffff;
-    z-index:2;
 }
 
-#dropdown-icon{
-    font-size: 1.5em;
+.page-header h1{
+    margin:0;
+}
+
+.page-header .main-nav{
     position:absolute;
     top: 1em;
-    right: 1.5em;
+    right: 1em;
 }
 
 footer{
     text-align: center;
 }
 
-#all-content{
-    margin-top: 2em;
-}
 
 section{
     padding:20px;
