@@ -101,6 +101,8 @@ textarea {
  /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*border-box reset*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 body{
     font-family: 'Muli', sans-serif;
@@ -139,6 +141,7 @@ footer{
 section{
     padding:20px;
     border-bottom: 1px solid #cccccc;
+    overflow: auto;
 }
 
 a{ 
@@ -181,7 +184,7 @@ h2{
 
 .thumbnail-gallery figure{
     margin: 0;
-    width: 49%;
+    width: 50%;
     float: left;
     padding: 1% 1% 0 0;
     position: relative;
