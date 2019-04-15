@@ -116,6 +116,7 @@ header{
     width: 100%;
     padding-left: 1em;
     color: #ffffff;
+    z-index:2;
 }
 
 h1{
@@ -215,6 +216,7 @@ h2{
 
 
 .thumbnail-gallery article:hover, article:active{
+    position:relative;
     background: none;
     color:#ffffff;
 }
