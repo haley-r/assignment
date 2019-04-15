@@ -145,8 +145,8 @@ footer{
 }
 
 
-section{
-    padding:20px;
+.page-section{
+    padding:1em;
     border-bottom: 1px solid #cccccc;
     overflow: auto;
 }
@@ -156,45 +156,48 @@ a{
     text-decoration: none;
 }
 
-.splash{
-    color:#ffffff;
-    text-align: center;
-    padding: 50px;
-    width: 100%;
-    position: relative;
+.jumbotron{
+   padding: 0;
+   position: relative;
 }
 
-.splash img{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width:100%;
-    height: 100%;
+.jumbotron img{
+    position:relative;
     z-index:-1;
+    display:block;
+    width: 100%;
 }
 
-.splash h2{
-    font-size: 5em;
-    font-weight: bold;
-    padding: .5em;
-    line-height: 1em;
+.jumbotron .text-layer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    line-height: 1;
+    margin-top:0;
 }
 
-.splash .button{
-    font-weight: bold;
+.jumbotron .text-layer h2{
+    font-size: 3em;
+}
+
+.jumbotron .button{
+    display: inline-block;
     border: 3px solid #ffffff;
-    padding: .5em;
-    font-size: 2em;
+    padding: .5em 1em .5em 1em;
+    font-size: 1.25em;
     letter-spacing: .1em;
     margin: 1em;
 }
 
-.splash .button:hover{
+.jumbotron .button:hover{
     background: #ffffff;
     color: #000000;
 }
 
-
+/*
 .thumbnail-gallery article{
     display:block;
     margin: 0;
