@@ -154,15 +154,17 @@ a{
     color:#ffffff;
     text-align: center;
     padding: 50px;
-    background-size: cover;
+    width: 100%;
+    position: relative;
 }
 
-#be-random{
-    background:url("../img/backgrounds/purple-bg.jpeg");
-}
-
-#contact{
-    background:url("../img/backgrounds/condiments-bg.jpg");
+.splash img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width:100%;
+    height: 100%;
+    z-index:-1;
 }
 
 .splash h2{
@@ -183,7 +185,7 @@ a{
 
 .splash .button:hover{
     background: #ffffff;
-    color: #4b0757;
+    color: #000000;
 }
 
 h2{
