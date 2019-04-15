@@ -157,6 +157,14 @@ a{
     background-size: cover;
 }
 
+#be-random{
+    background:url("../img/backgrounds/purple-bg.jpeg");
+}
+
+#contact{
+    background:url("../img/backgrounds/condiments-bg.jpg");
+}
+
 .splash h2{
     font-size: 5em;
     font-weight: bold;
@@ -220,22 +228,6 @@ h2{
     background: none;
     color:#ffffff;
 }
-
-
-#be-random{
-    background:url("../img/backgrounds/purple-bg.jpeg");
-}
-
-
-*/
-
-
-
-
-
-
-
-
 
 
 
